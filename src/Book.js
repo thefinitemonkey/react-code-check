@@ -12,7 +12,7 @@ class Book extends Component {
         const authors = this.props.book.authors && this.props.book.authors.join(' | ');
 
         // Create thumbnail url
-        let url = (this.props.book.imageLinks && `url(${this.props.book.imageLinks.thumbnail})`);
+        let url = (this.props.book.imageLinks && 'url(${this.props.book.imageLinks.thumbnail})');
 
         return (
             <div className="book">

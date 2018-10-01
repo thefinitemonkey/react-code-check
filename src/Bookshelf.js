@@ -17,8 +17,7 @@ class Bookshelf extends Component {
                                 <li key={book.id}>
                                     <Book
                                         book={book}
-                                        onChangeShelf={this.props.onChangeShelf}
-                                        onUpdateQuickView={this.props.onUpdateQuickView}/>
+                                        onChangeShelf={this.props.onChangeShelf}/>
                                 </li>
                             ))}
                     </ol>
